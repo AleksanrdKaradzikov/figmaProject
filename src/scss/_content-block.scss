@@ -21,7 +21,7 @@
     }
     &-brand{
       &__icon-burg{
-        background-image: url("/img/icons/burg-icon.svg");
+        background-image: url("../img/icons/burg-icon.svg");
         display: inline-block;
         margin-right: 4rem;
         position: relative;
@@ -46,21 +46,21 @@
     }
     &-setting{
       &__icon-tel{
-        background-image:  url("/img/icons/tel-icon.svg");
+        background-image:  url("../img/icons/tel-icon.svg");
         margin-right: 1rem;
         @media screen and(max-width:530px){
           display:none;
         }
       }
       &__icon-message{
-        background-image:  url("/img/icons/message-icon.svg");
+        background-image:  url("../img/icons/message-icon.svg");
         margin-right: 1rem;
         @media screen and(max-width:530px){
           display:none;
         }
       }
       &__icon-contact{
-        background-image:  url("/img/icons/contact-icon.svg");
+        background-image:  url("../img/icons/contact-icon.svg");
         margin-right: 4rem;
         position: relative;
         &::after{
@@ -79,11 +79,11 @@
         }
       }
       &__icon-setting{
-        background-image:  url("/img/icons/setting-icon.svg");
+        background-image:  url("../img/icons/setting-icon.svg");
         margin-right: 1rem;
       }
       &__icon-status{
-        background-image:  url("/img/icons/status-icon.svg");
+        background-image:  url("../img/icons/status-icon.svg");
       }
     }
   }
@@ -100,10 +100,10 @@
         display:none
       }
       &__icon-setting{
-        background-image: url("/img/icons/setting-icon.svg");
+        background-image: url("../img/icons/setting-icon.svg");
       }
       &__icon-status{
-        background-image: url("/img/icons/status-icon.svg");
+        background-image: url("../img/icons/status-icon.svg");
       }
       &__link{
         display:inline-flex;
@@ -298,7 +298,7 @@
   width: 3rem;
   border-radius: 50%;
   border:1px solid $iconsColor;
-  background: url("/img/icons/red-dropdown.svg") center center no-repeat;
+  background: url("../img/icons/red-dropdown.svg") center center no-repeat;
   cursor: pointer;
   transition: border-color 0.3s ease,
               background-color 0.3s ease;
@@ -473,7 +473,7 @@
         font-family: $fontBold;
         padding-right: 2rem;
         font-size:1.6rem;
-        background: url("/img/icons/red-dropdown.svg") right center no-repeat;
+        background: url("../img/icons/red-dropdown.svg") right center no-repeat;
         @media screen and(max-width:768px){
             padding-right: 1rem;
         }

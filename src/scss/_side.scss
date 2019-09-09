@@ -33,7 +33,7 @@
     transition:width 0.5s ease;
     padding-left: 2rem;
     &__icon-close{
-      background-image:url("/img/icons/close-icon.svg");
+      background-image:url("../img/icons/close-icon.svg");
       margin-right: 2rem;
       display:none;
       @media screen and(max-width:991px){
@@ -70,7 +70,7 @@
       }
     }
     &__icon{
-      background-image: url("/img/icons/search-icon.svg");
+      background-image: url("../img/icons/search-icon.svg");
       position: relative;
     }
   }
@@ -142,15 +142,15 @@
   &-block{
     margin-bottom: 1rem;
     &__icon-tel{
-        background-image: url("/img/icons/tel-icon.svg");
+        background-image: url("../img/icons/tel-icon.svg");
         margin-right: 1rem;
     }
     &__icon-mess{
-      background-image: url("/img/icons/message-icon.svg");
+      background-image: url("../img/icons/message-icon.svg");
       margin-right: 1rem;
     }
     &__icon-contact{
-      background-image: url("/img/icons/contact-icon.svg");
+      background-image: url("../img/icons/contact-icon.svg");
     }
   }
 }

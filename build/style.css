@@ -66,7 +66,7 @@ body {
   padding-bottom: 1rem;
   padding-left: 2rem;
   padding-right: 3rem;
-  background-image: url("/img/icons/dropdown.svg");
+  background-image: url(./static/dropdown.svg);
   background-position: 90% center;
   background-repeat: no-repeat;
   border-radius: 1.6rem;
@@ -172,7 +172,7 @@ body {
     transition: width 0.5s ease;
     padding-left: 2rem; }
     .header-logo__icon-close {
-      background-image: url("/img/icons/close-icon.svg");
+      background-image: url(./static/close-icon.svg);
       margin-right: 2rem;
       display: none; }
       @media screen and (max-width: 991px) {
@@ -202,7 +202,7 @@ body {
         padding-left: 1rem;
         transition: width 0.5s ease, padding 0.3s ease; }
     .header-search__icon {
-      background-image: url("/img/icons/search-icon.svg");
+      background-image: url(./static/search-icon.svg);
       position: relative; }
 
 .navbar-block {
@@ -265,13 +265,13 @@ body {
   .contacts-block {
     margin-bottom: 1rem; }
     .contacts-block__icon-tel {
-      background-image: url("/img/icons/tel-icon.svg");
+      background-image: url(./static/tel-icon.svg);
       margin-right: 1rem; }
     .contacts-block__icon-mess {
-      background-image: url("/img/icons/message-icon.svg");
+      background-image: url(./static/message-icon.svg);
       margin-right: 1rem; }
     .contacts-block__icon-contact {
-      background-image: url("/img/icons/contact-icon.svg"); }
+      background-image: url(./static/contact-icon.svg); }
 
 .props {
   margin-bottom: 2rem; }
@@ -316,7 +316,7 @@ body {
         justify-content: space-between;
         align-items: center; } }
     .section-small-brand__icon-burg {
-      background-image: url("/img/icons/burg-icon.svg");
+      background-image: url(./static/burg-icon.svg);
       display: inline-block;
       margin-right: 4rem;
       position: relative; }
@@ -337,19 +337,19 @@ body {
           .section-small-brand__icon-burg::after {
             right: -11rem; } }
     .section-small-setting__icon-tel {
-      background-image: url("/img/icons/tel-icon.svg");
+      background-image: url(./static/tel-icon.svg);
       margin-right: 1rem; }
       @media screen and (max-width: 530px) {
         .section-small-setting__icon-tel {
           display: none; } }
     .section-small-setting__icon-message {
-      background-image: url("/img/icons/message-icon.svg");
+      background-image: url(./static/message-icon.svg);
       margin-right: 1rem; }
       @media screen and (max-width: 530px) {
         .section-small-setting__icon-message {
           display: none; } }
     .section-small-setting__icon-contact {
-      background-image: url("/img/icons/contact-icon.svg");
+      background-image: url(./static/contact-icon.svg);
       margin-right: 4rem;
       position: relative; }
       .section-small-setting__icon-contact::after {
@@ -366,10 +366,10 @@ body {
         .section-small-setting__icon-contact {
           display: none; } }
     .section-small-setting__icon-setting {
-      background-image: url("/img/icons/setting-icon.svg");
+      background-image: url(./static/setting-icon.svg);
       margin-right: 1rem; }
     .section-small-setting__icon-status {
-      background-image: url("/img/icons/status-icon.svg"); }
+      background-image: url(./static/status-icon.svg); }
   .section-top {
     padding-top: 2rem; }
     .section-top__description {
@@ -381,9 +381,9 @@ body {
       .section-top-actualites {
         display: none; } }
     .section-top-actualites__icon-setting {
-      background-image: url("/img/icons/setting-icon.svg"); }
+      background-image: url(./static/setting-icon.svg); }
     .section-top-actualites__icon-status {
-      background-image: url("/img/icons/status-icon.svg"); }
+      background-image: url(./static/status-icon.svg); }
     .section-top-actualites__link {
       display: inline-flex;
       align-items: center;
@@ -544,7 +544,7 @@ body {
   width: 3rem;
   border-radius: 50%;
   border: 1px solid #FF3E79;
-  background: url("/img/icons/red-dropdown.svg") center center no-repeat;
+  background: url(./static/red-dropdown.svg) center center no-repeat;
   cursor: pointer;
   transition: border-color 0.3s ease, background-color 0.3s ease; }
   .sircl-block:hover {
@@ -689,7 +689,7 @@ body {
       font-family: "TTLakes-Bold", sans-serif;
       padding-right: 2rem;
       font-size: 1.6rem;
-      background: url("/img/icons/red-dropdown.svg") right center no-repeat; }
+      background: url(./static/red-dropdown.svg) right center no-repeat; }
       @media screen and (max-width: 768px) {
         .section-price__sentence .sentence-link {
           padding-right: 1rem; } }
@@ -708,7 +708,7 @@ body {
   font-family: "TTLakes-Bold", sans-serif;
   padding-right: 2rem;
   font-size: 1.6rem;
-  background: url("/img/icons/red-dropdown.svg") right center no-repeat; }
+  background: url(./static/red-dropdown.svg) right center no-repeat; }
 
 .address-block__information {
   display: flex;
@@ -771,7 +771,7 @@ body {
     .modal__heading {
       margin-top: 5rem; } }
   .modal__icon-close {
-    background-image: url("/img/icons/close-icon.svg");
+    background-image: url(./static/close-icon.svg);
     position: absolute;
     left: -7rem;
     top: 2rem; }
