@@ -1,0 +1,27 @@
+.footer{
+  padding:2rem;
+  border-top:1px solid $opacityColor;
+  &__wrapp{
+      margin-top: 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media screen and(max-width: 767px){
+          flex-direction: column;
+      }
+  }
+  &-text{
+      font-size: 1.4rem;
+      color:$activeTextColor;
+      span{
+          text-transform: uppercase;
+      }
+      &:not(:first-child){
+          text-align: right;
+      }
+      @media screen and(max-width: 767px){
+          margin-bottom: 2rem;
+          text-align: center !important;
+      }
+  }
+}
